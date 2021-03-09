@@ -1,0 +1,16 @@
+{
+  "development": {
+    "url": "mysql://root:bastos@localhost:3306/seqnode",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "url": "mysql://root:bastos@localhost:3306/seqnode-test",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
